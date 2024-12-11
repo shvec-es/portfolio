@@ -24,6 +24,7 @@
 }
 
 .orderBtn {
+  width: 160px;
   padding: 15px;
   background-color: rgb(219, 230, 57);
   border-radius: 60px;
@@ -144,6 +145,7 @@
   line-height: 124px;
   letter-spacing: 1.7999999523162842px;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .titleAbout span {
