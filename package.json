@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/anton-sc": "^5.1.0",
+    "@fontsource/montserrat": "^5.2.5",
+    "@fontsource/poppins": "^5.2.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "formik": "^2.4.6",
+    "framer-motion": "^12.6.3",
     "react": "^18.3.1",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-scripts": "5.0.1",
+    "swiper": "^11.1.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

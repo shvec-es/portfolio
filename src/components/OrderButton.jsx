@@ -1,9 +1,11 @@
-import s from "./Header.module.css";
+import s from './Header.module.css';
 
-const OrderButton = (props) => {
+const OrderButton = props => {
   return (
-    <div className={s.orderBtn}>
-      <a href="/">Order the project</a>
+    <div>
+      <a className={s.orderBtn} href="/">
+        Order the project
+      </a>
     </div>
   );
 };

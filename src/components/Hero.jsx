@@ -1,7 +1,7 @@
-import s from "./Header.module.css";
-import photo from "../photo_5298998442577739519_y.jpg";
-import OrderButton from "./OrderButton";
-import SocialLinks from "./SocialLinks";
+import s from './Header.module.css';
+import photo from '../images/photo.jpg';
+import OrderButton from './OrderButton';
+import SocialLinks from './SocialLinks';
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           <OrderButton />
           <p className={s.descr}>
             I work with people all over the world to create impressive and
-            functional websites that reflect each client’s unique personality.{" "}
+            functional websites that reflect each client’s unique personality.{' '}
           </p>
         </div>
         <SocialLinks />

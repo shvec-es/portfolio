@@ -1,0 +1,188 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  /* height: 48px; */
+  padding: 16px;
+  border-radius: 8px;
+  background: #e4e5e6;
+}
+
+/* About me */
+
+.about_ac_heading {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+}
+/* Projects */
+
+.proj {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 1000px;
+
+}
+
+.proj_textwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tags {
+  margin-top: 10px;
+  color: #767474;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.proj_title {
+  color: #292929;
+  margin-bottom: 15px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.proj_btn {
+  color: var(--Black, #292929);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  padding: 12px 24px;
+border: 1px solid rgb(219, 230, 57);
+  border-radius: 8px;
+  background: transparent;
+}
+
+.proj_btn svg {
+  display: inline-block;
+  fill: rgb(219, 230, 57);
+}
+/* Benefits */
+
+.benefits {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.benefit {
+  width: 332px;
+  border: 1px solid rgb(219, 230, 57);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.benefit svg {
+  background-color: rgba(219, 230, 57, 0.4);
+  padding: 7px;
+  border-radius: 8px;
+}
+.benefit_title {
+  color: #292929;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.benefit_text {
+  color: #292929;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+/* Work Together */
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 488px;
+  margin-bottom: 100px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.work svg {
+  display: inline;
+  margin-right: 16px;
+  stroke: rgb(219, 230, 57);
+}
+
+.contacts li {
+  margin-bottom: 10px;
+}
+
+.contacts a {
+  color: var(--Black, #292929);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.form {
+  width: 600px;
+}
+
+.btn_send {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: rgb(219, 230, 57);
+}
+
+/* Footer */
+
+.footer_section {
+  padding-top: 20px;
+  border-top: 1px solid #e4e5e6;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
