@@ -181,6 +181,7 @@ header {
 
 .headerBtnsMobile {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   align-items: center;
 }
@@ -191,52 +192,43 @@ header {
   }
 }
 /* HERO */
-/* .heroSection {
-  background-image: url(../images/hero-bg-desk.png);
-} */
-
-.title {
-  width: 600px;
-  font-family: Anton SC;
-  font-size: 124px;
-  font-weight: 400;
-  line-height: 148px;
-  letter-spacing: 1.7999999523162842px;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.title span {
-  color: rgb(219, 230, 57);
-}
 
 .hero {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 80px;
+  padding-top: 160px;
+  padding-bottom: 32px;
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.photo {
-  width: 300px;
-  border-radius: 32px;
-}
-
-.heroSecond {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
   margin-bottom: 40px;
 }
 
+.accentText {
+  color: rgb(219, 230, 57);
+}
+
 .descr {
-  width: 592px;
-  text-transform: uppercase;
-  font-family: Poppins;
-  font-size: 20px;
+  margin-bottom: 72px;
   font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 1.55556;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: left;
 }
 
@@ -244,15 +236,52 @@ header {
   display: flex;
   justify-content: end;
   gap: 10px;
-  margin-bottom: 20px;
 }
 
-.links li {
-  padding: 16px 18px;
-  border-radius: 60px;
-  border: 1px solid #2c2a2a;
+.socLink {
+  transition: color 500ms ease-in-out, fill 500ms ease-in-out;
 }
 
+.socLink:hover,
+.socLink:focus {
+  color: rgb(219, 230, 57);
+  fill: rgb(219, 230, 57);
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 90px;
+    margin-bottom: 60px;
+  }
+  .descr {
+    margin-bottom: 80px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 80px;
+  }
+  .descr {
+    width: 592px;
+    text-align: right;
+    margin-left: auto;
+  }
+  .links {
+    gap: 20px;
+  }
+
+  .links svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .links a {
+    font-size: 20px;
+  }
+}
 /* ABOUT ME */
 .titleAbout {
   font-family: Anton SC;

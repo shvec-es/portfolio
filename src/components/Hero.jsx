@@ -1,25 +1,23 @@
 import s from './Header.module.css';
-import photo from '../images/photo.jpg';
-import OrderButton from './OrderButton';
+// import photo from '../images/photo.jpg';
+// import OrderButton from './OrderButton';
 import SocialLinks from './SocialLinks';
 
 const Hero = () => {
   return (
-    <section>
+    <section className={s.hero}>
       <div className={`${s.container} ${s.heroSection}`}>
-        <div className={s.hero}>
-          <h1 className={s.title}>
-            Hello, I am <span>Fullstack developer</span>
-          </h1>
-          <img className={s.photo} src={photo} alt="my_photo" />
-        </div>
-        <div className={s.heroSecond}>
-          <OrderButton />
-          <p className={s.descr}>
-            I work with people all over the world to create impressive and
-            functional websites that reflect each client’s unique personality.{' '}
-          </p>
-        </div>
+        <h1 className={s.title}>
+          Hello, I am <span className={s.accentText}>Fullstack developer</span>
+        </h1>
+        <p className={s.descr}>
+          I’m dedicated to designing{' '}
+          <span className={s.accentText}>
+            responsive, user-friendly websites
+          </span>{' '}
+          that not only fulfill all your needs but also stand out and truly{' '}
+          <span className={s.accentText}>represent your unique vision</span>.
+        </p>
         <SocialLinks />
       </div>
     </section>

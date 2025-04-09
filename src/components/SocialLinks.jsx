@@ -1,22 +1,34 @@
-import s from "./Header.module.css";
+import s from './Header.module.css';
+import { LiaTelegramPlane, LiaGithub, LiaInstagram } from 'react-icons/lia';
+import { RiYoutubeLine } from 'react-icons/ri';
 
-const SocialLinks = (props) => {
+const SocialLinks = props => {
   return (
     <ul className={s.links}>
       <li>
-        <a href="/">IG</a>
+        <a className={s.socLink} href="/">
+          <LiaInstagram size={26} />
+        </a>
       </li>
       <li>
-        <a href="/">TG</a>
+        <a className={s.socLink} href="/">
+          <LiaTelegramPlane size={26} />
+        </a>
       </li>
       <li>
-        <a href="/">YT</a>
+        <a className={s.socLink} href="/">
+          <RiYoutubeLine size={26} />
+        </a>
       </li>
       <li>
-        <a href="/">GH</a>
+        <a className={s.socLink} href="/">
+          <LiaGithub size={26} />
+        </a>
       </li>
       <li>
-        <a>kotova.es.1510@gmail.com</a>
+        <a className={s.socLink} href="mailto:kotova.es.1510@gmail.com">
+          .gmail
+        </a>
       </li>
     </ul>
   );
